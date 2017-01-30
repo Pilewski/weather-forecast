@@ -1,15 +1,6 @@
 require('isomorphic-fetch');
-import axios from 'axios';
 
 export const RECEIVE_FORECAST = 'RECEIVE_FORECAST';
-
-export const receiveForecast = (forecastData) => ({
-  // action object
-});
-
-export const fetchForecast = options => dispatch => {
-  // return fetch API call
-};
 
 export const fetchWeatherCurrentLocation = (position) => {
 	const latitude = position.coords.latitude;
